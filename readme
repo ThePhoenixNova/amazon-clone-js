@@ -1,0 +1,35 @@
++ Type variable name
+- camel case = cartItem
+- kabeb case = cart-item
+- pascal case = Cartitem
+
++ clear localStorage press: 
+- localStorage.clear() 
+- localStorage.removeItem('cart')
+
++ each files can use only one export default
+
++ 3 main ideas of javaScript:
+1, save the data (Model)
+2, gerate to html
+3, make it interactive
+
++ update and generate data 
+1, update the data
+2, generate all the html
+Popular technique in software engineering =  MVC : Model-View-Controller
+- Model : save and manage the data. Ex: const cart = [{..}], function manageCart () {..}
+- View : take the data and displays it on the page. Ex: cart.forEach(..), document
+- Controller : run some code when we interact with the page. Ex: button.addEventListener('click' () => {..})
++ MVC is a design pattern
+
++ framework for testing name 'jasmine'
++mock is the fake vertion use to test on jasmine with 'spyOn'
+
++ backend 
+- 4 types of requests
+. Get : get somthing from backend
+. Post : create 
+. Put : update
+. Delete : delete somthing  
+
